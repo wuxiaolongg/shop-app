@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/mine/mine",
+    "pages/addressList/addressList",
+    "pages/index/index",
+    "pages/address/address",
+    "pages/cart1/cart1",
+    "pages/cart/cart",
+    "pages/goods/goods",
+    "pages/classify/classify",
+    "pages/brand/brand",
+    "pages/classifyGoods/classifyGoods",
+    "pages/test/test",
+    "pages/detail/detail",
+    "pages/logs/logs",
+    "pages/template/template"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#cecece",
+    "navigationBarTitleText": "晓龙商店",
+    "backgroundColor": "#f0145a"
+  },
+  "tabBar": {
+    "color": "#858585",
+    "selectedColor": "#f0145a",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "assets/images/home.png",
+        "selectedIconPath": "assets/images/home_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "iconPath": "assets/images/classify.png",
+        "selectedIconPath": "assets/images/classify_select.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart1/cart1",
+        "iconPath": "assets/images/cart.png",
+        "selectedIconPath": "assets/images/cart_select.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "assets/images/mine.png",
+        "selectedIconPath": "assets/images/mine_select.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
